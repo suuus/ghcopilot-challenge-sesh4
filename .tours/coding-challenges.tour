@@ -13,13 +13,23 @@
       "file": "challenges/challenge1/README.md"
     },
     {
-      "title": "Challenge 1: Writing Tests",
-      "description": "Start by writing tests for the string utility functions. Use GitHub Copilot to help generate comprehensive test cases.",
+      "file": "challenges/challenge1/stringUtils.test.ts",
+      "description": "Start by writing tests for the string utility functions. Use GitHub Copilot to help generate comprehensive test cases. Look at how Copilot might suggest you some extra comments, too.",
+      "line": 10
+    },
+    {
+      "title": "Run Tests for Challenge 1",
+      "description": "Execute the tests for the string utilities challenge. These tests should fail at this point. \n\n>> npx jest challenges/challenge1/stringUtils.test.ts",
       "file": "challenges/challenge1/stringUtils.test.ts"
     },
     {
       "title": "Challenge 1: Implementation",
       "description": "Now implement the string utility functions to make your tests pass. Remember to handle edge cases!",
+      "file": "challenges/challenge1/stringUtils.ts"
+    },
+    {
+      "title": "Run Final Tests for Challenge 1",
+      "description": "Execute the tests for the string utilities challenge. These tests should be successful at this point. \n\n>> npx jest challenges/challenge1/stringUtils.test.ts",
       "file": "challenges/challenge1/stringUtils.ts"
     },
     {
