@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Coding Challenges Walkthrough",
+  "steps": [
+    {
+      "title": "Welcome to the Coding Challenges",
+      "description": "This tour will guide you through three progressively complex testing challenges using TypeScript and Jest. Each challenge builds upon different testing concepts.",
+      "file": "README.md"
+    },
+    {
+      "title": "Challenge 1: String Utilities",
+      "description": "Let's start with basic TDD! In this challenge, you'll implement string utility functions using test-driven development. Open the README to understand the requirements.",
+      "file": "challenges/challenge1/README.md"
+    },
+    {
+      "title": "Challenge 1: Writing Tests",
+      "description": "Start by writing tests for the string utility functions. Use GitHub Copilot to help generate comprehensive test cases.",
+      "file": "challenges/challenge1/stringUtils.test.ts"
+    },
+    {
+      "title": "Challenge 1: Implementation",
+      "description": "Now implement the string utility functions to make your tests pass. Remember to handle edge cases!",
+      "file": "challenges/challenge1/stringUtils.ts"
+    },
+    {
+      "title": "Challenge 2: User Service",
+      "description": "Moving on to more advanced testing concepts. This challenge focuses on mocking external dependencies.",
+      "file": "challenges/challenge2/README.md"
+    },
+    {
+      "title": "Challenge 2: Types",
+      "description": "First, review and understand the TypeScript interfaces for the User Service.",
+      "file": "challenges/challenge2/types.ts"
+    },
+    {
+      "title": "Challenge 2: Service Tests",
+      "description": "Write tests for the UserService, properly mocking API calls and handling error cases.",
+      "file": "challenges/challenge2/userService.test.ts"
+    },
+    {
+      "title": "Challenge 2: Service Implementation",
+      "description": "Implement the UserService with proper error handling and TypeScript types.",
+      "file": "challenges/challenge2/userService.ts"
+    },
+    {
+      "title": "Challenge 3: Shopping Cart",
+      "description": "The final challenge involves integration testing with multiple interacting components.",
+      "file": "challenges/challenge3/README.md"
+    },
+    {
+      "title": "Challenge 3: Types and Services",
+      "description": "Review the types and service interfaces that make up the shopping cart system.",
+      "file": "challenges/challenge3/types.ts"
+    },
+    {
+      "title": "Challenge 3: Cart Tests",
+      "description": "Write integration tests that verify the correct interaction between cart, inventory, and discount services.",
+      "file": "challenges/challenge3/cart.test.ts"
+    },
+    {
+      "title": "Challenge 3: Cart Implementation",
+      "description": "Implement the shopping cart system, ensuring all components work together correctly.",
+      "file": "challenges/challenge3/cart.ts"
+    },
+    {
+      "title": "Challenge 3: Services",
+      "description": "Implement the supporting services (DiscountService and InventoryService) needed for the cart system.",
+      "file": "challenges/challenge3/services.ts"
+    }
+  ]
+}
