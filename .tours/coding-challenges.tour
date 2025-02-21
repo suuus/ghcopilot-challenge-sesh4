@@ -39,7 +39,7 @@
     },
     {
       "title": "Challenge 2: Types",
-      "description": "First, review and understand the TypeScript interfaces for the User Service.",
+      "description": "First, review and understand the TypeScript interfaces for the User Service. You can also use GitHub Copilot to get an explanation.",
       "file": "challenges/challenge2/types.ts"
     },
     {
